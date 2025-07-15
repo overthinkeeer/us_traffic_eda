@@ -3,9 +3,9 @@
 This project investigates the **validity of severity levels** in the [US Accidents dataset](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents). According to the dataset documentation, the `Severity` feature represents the **level of impact on traffic** — from minor (1) to severe (4).
 
 Through extensive EDA, I demonstrate that:
-- Severity values, especially level 3, do **not consistently correlate** with real-world impact.
+- Severity values do **not consistently correlate** with real-world impact.
 - Many records contain **extreme anomalies**, such as accidents lasting over 2 years, or with 120-mile visibility.
-- The current 4-class severity labeling may be **misleading** and benefit from **reclustering via NLP and Unsupervised Learning**.
+- The current severity labeling may be **misleading** and benefit from **reclustering via NLP and Unsupervised Learning**.
 
 ---
 
